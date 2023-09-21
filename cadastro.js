@@ -51,7 +51,6 @@ function carregar() {
                     </li>`;
     }
     lista.innerHTML = contatos;
-    console.log(users)
 }
 carregar();
 
@@ -77,7 +76,7 @@ function editar(i) {
         return user.email == novoEmail;
     })
 
-    if (result !== i && result == -1) {
+    if (result == -1) {
         newUser.nome = novoNome;
         newUser.email = novoEmail;
         newUser.tel = novoTel;
