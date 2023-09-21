@@ -62,6 +62,8 @@ function excluir(i) {
     }
     carregar();
 }
+
+
 function editar(i) {
     var novoNome = document.getElementsByClassName("novoNomeUser")[i].value;
     var novoEmail = document.getElementsByClassName("novoEmailUser")[i].value;

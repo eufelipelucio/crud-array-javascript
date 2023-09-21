@@ -50,7 +50,7 @@ function remover(i) {
 
 function editar(i){
     const novaFruta = document.getElementsByClassName("novaFruta")[i].value;
-    frutas[i] = novaFruta;
+    frutas[i] = novaFruta.toUpperCase();
     carregar();
  }
 
